@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+<meta charset="UTF-8">
+<title>javascript</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    input{
+        border: radius 10px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 5px;
+        }
+        body{
+            margin-top: 15%;
+            }
+        h1{
+            color:rgb(116, 8, 69);
+            font-size:40pz;
+            }
+        form{
+            background-color:#1abaa5; 
+            
+            width: 450px; ;
+            }
+</style>
+<script>
+    function pow(){
+        var x=document.getElementById("a").value
+        var y=document.getElementById("b").value
+        document.getElementById('r').innerText="Power:" +x*x*y
+        }
+</script>
+</head>
+<body>
+    <H2>
+        <br>
+        <center>
+            <form>
+                <h1>Power Calculator</h1>
+                <input type="text" placeholder="Enter intensity" id="a"><br>
+                <input type="text" placeholder="Enter resistance" id="b"><br>
+                <input type="button" value="calculate" onclick="pow()"><br>
+                <label id="r"></label>
+            </form>
+        </center>
+    </H2>
+</body>
