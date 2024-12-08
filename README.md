@@ -131,6 +131,7 @@ path('', views.EnergyCalc, name="EnergyCalc") # Root URL redirect
 ```
 
 ## SERVER SIDE PROCESSING:
+
 ![alt text](<Screenshot 2024-12-08 224052.png>)
 
 
